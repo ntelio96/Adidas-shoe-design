@@ -18,20 +18,18 @@ body {
 
 .container {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
   gap: 20px;
-  width: 100%;
+  width: 1400px;
 }
 header nav .fa {
+  margin-left: 15px;
 }
 
 main.container {
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  /* min-height: calc(100vh - 120px); */
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 120px);
 }
 
 .logo {
@@ -39,16 +37,23 @@ main.container {
   margin-right: auto;
   opacity: 70%;
 }
-header {
-}
+
 header .center {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
+}
+
+.center > a {
+  justify-content: space-evenly;
 }
 
 a {
   text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav + nav {
+  margin-left: 50px;
 }
 
 .img-bg {
@@ -63,5 +68,5 @@ a {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: crimson;
+  background-color: #059892;
 }
