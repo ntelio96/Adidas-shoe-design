@@ -1,0 +1,38 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  margin: 10px 40px;
+}
+
+.logo {
+  display: flex;
+  float: left;
+}
+
+header .center {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+}
+
+.img-bg {
+  width: 1200px;
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background-image: url(../img/adidas-shoes.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 0;
+}
