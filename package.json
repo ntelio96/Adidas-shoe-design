@@ -1,0 +1,24 @@
+{
+  "name": "Adidas-shoe-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server --port=3006 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntelio96/Adidas-shoe-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntelio96/Adidas-shoe-design/issues"
+  },
+  "homepage": "https://github.com/ntelio96/Adidas-shoe-design#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
