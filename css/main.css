@@ -26,6 +26,7 @@ header nav .fa {
 }
 
 main.container {
+  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -34,7 +35,7 @@ main.container {
 
 .logo {
   max-height: 50px;
-  margin-right: auto;n
+  margin-right: auto;
   opacity: 70%;
 }
 header a {
@@ -90,4 +91,21 @@ main h3 {
 main a {
   font-size: 24px;
   color: #000;
+}
+main a:hover {
+  color: #fff;
+}
+
+/*
+{
+  position: absolute;
+  top:0;
+  right: 0;
+  float: left;
+}*/
+
+section .social {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
 }
