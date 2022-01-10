@@ -113,14 +113,6 @@ main > div .fa {
   padding: 14px 20px;
 }
 
-/*
-{
-  position: absolute;
-  top:0;
-  right: 0;
-  float: left;
-}*/
-
 section .social {
   display: flex;
   flex-direction: column;
